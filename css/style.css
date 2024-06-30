@@ -1,0 +1,203 @@
+
+.image { 
+    background-image: linear-gradient(rgba(243, 85, 85, 0.76),rgba(2, 1, 1, 0.9)), url(../images/pexels-maumascaro-801863.jpg);
+    width: 100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.bold { 
+    font-size: 3rem !important;
+    font-weight: 600;
+}
+
+#slideDown { 
+    margin: 100px auto;
+    width: 50%;
+}
+
+#slideDown h3  {
+    background-color: rgb(194, 100, 100);
+    cursor: pointer;
+    padding: 10px;
+    color: #fff;
+}
+
+
+#slideDown div { 
+    background-color: #999292;
+    padding: 10px;
+    display: none;
+}
+
+#slideDown .frist { 
+    display: block;
+}
+
+
+.imageoverlay { 
+    background-image: linear-gradient(rgba(243, 85, 85, 0.76),rgba(2, 1, 1, 0.9)), url(../images/invitation-2508607__340.jpg);
+    height: 30vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.time{
+    border: 2px solid #fff;
+    padding: 50px;
+    color: #fff;
+}
+
+.contact { 
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+
+.color { 
+    color: red;
+}
+.icon-text i {
+    margin-right: 1rem;
+}
+
+.button { 
+    background-color: rgb(216, 68, 68);
+    color: #fff;
+    padding: 5px 10px;
+    border: 0;
+}
+
+.contact-us  form input  { 
+    margin-bottom: 20px;
+    border-radius: 0;
+}
+
+#text { 
+    color: black;
+}
+
+.iconsfas i { 
+    border: 0.5px solid rgb(150, 150, 150);
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    transition: all 0.6s;
+}
+
+.iconsfas i:hover  {
+    color: #fff;
+    background-color:rgb(156, 58, 58) ;
+}
+
+.contact-us  {
+     padding-top: 5rem;
+     padding-bottom: 5rem;
+}
+
+aside { 
+    position: fixed;
+    left: 0;
+    top: 30%;
+    z-index: 9999;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 50%;
+
+}
+.sidebar  {
+    padding: 10px;
+}
+
+.sidebar h2 { 
+    font-size: 20px;
+}
+
+.icon { 
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    padding-top: 5rem;
+}
+
+#menu { 
+    width: 0px;
+}
+
+.links { 
+    height: 100%;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: all 0.5s;
+    padding-top: 60px;
+    background-color: rgb(141, 121, 96);
+    width: 15%;
+
+}
+.links ul { 
+    position: relative;
+    padding-right: 50%;
+}
+.links ul li a  {
+     text-decoration: none;
+     color: black;
+     
+}
+
+.links ul li  { 
+    list-style: none;
+}
+
+.image .icon {
+    position: absolute;
+    left: 5%;
+    cursor: pointer;
+
+}
+
+.image .sidebar{
+    position: absolute;
+    left: 90%;
+}
+.links .fa-solid{
+    position: relative;
+    padding-left: 55%;
+    color: black;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 1400px) {
+    .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+      max-width: 1140px;
+    }
+  }
